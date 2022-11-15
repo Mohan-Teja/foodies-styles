@@ -1,0 +1,64 @@
+Week 1
+Joined group and Jira account initiated by Mohan. Attended first tutorial. During the tutorial, made some clarifiaction with Chelsea regarding meaning of 'functionalities' and expectations for first week. After the tutorial, we continued conversing on Teams. Discussed additional meeting time, and I proposed some epics. 
+
+Week 2
+Joined the Gitlab classroom (after numerous attempts). Drafted 7 epics in Jira. Wednesday meeting, confirmed epics with team. 
+The team suggested number of novel functionality. Two novel functionality were adopted. I suggested one functionality (premium subscruption) which was not adopted. 
+We also disccussed backend/frontend, Mohan did demo of authentication using a Django library. We allocated epics for writing of user stories. I wrote user stories for Recipe management and Recipe reccomendation. 
+After the tutorial, I moved the user story text from the "description" field to the title for all user stories. I also created a shared Project Proposal document with the skeleton and wrote the draft problem statement.
+
+Week 3:
+Made title page and table of contents to problem statement. Reviewed some limitations 2 existing systems and provided a few dot points.
+I made the following updates to the Interface Diagrams drafted by Mohanteja:
+* Rearrange to fit A4 page and format the windows more similar to lecture example
+* The explorer/contributor user categories as discussed (remove change account type button & add interface diagram for adding extra profile details to become a contributor)
+* Moved content based recommendations to Recipe page as we should show recipies similar to that recipe on that page
+* For collaborative filtering recommendations, updated it to recommend Contributors, as that is our Novel functionality 2
+* For the welcome page, removed the items on the left bar as it seems duplicate as the menu bar (?)
+* Add reset password page interface diagram
+Team meeting, we discussed novel functionality, in particular the proposed novel functionality search based on what's in the fridge is similar to searching based on ingredients. So we need to brainstorm novel functionality again.
+Each person can is to come up with extra novel functionality, mine was ingredient subtitution reccomendation, for when you dont have a particular ingredient.
+Team members provided their novel functionality, I added it to Jira.
+Complted the draft architecture diagram and ask Mohateja to review, it was accepted with no further feedback.
+After the tutorial, wrote draft architecture explanation - explaning each layer of architecture in detail plus choice of architecture.
+
+Week 4:
+On Monday, compiled the various parts required of the propsal together and made some minor edits. Copied in the user stories, wrote some explanation on the user storiesm, and wrote some explanation on the novel features.
+Setup backend app on local machine.
+Drafted React front-end app connecting to backend showing routes, general layout, and example of connecting to backend in registration.
+Wrote notes to team mates so they can set this up on their computer.
+Completed front end for login, registration, upgrade to contributor, profile page.
+
+Week 5:
+Edit profile backend to have profile description, and similar change to frontend.
+Added functionality to edit profile description in frontend.
+Added functionality to create recipe front end.
+Edit backend and front end to support photo upload for the recipe.
+Updated backend models and serializers to store multiple ingredients per recipe as records.
+Added ingredient autosuggest and ability to select multiple ingredients.
+Added list of cards for user's created recipies in their profile page 
+Added frontend function to delete recipe
+Added frontend function to edit recipe
+
+Week 6:
+Attended retro.
+Basic storage/retrieval of login token using localStorage.
+Added contributor profile to recipe page.
+Improve presentation of ingredients list to use a table and align elements.
+Created functionality to delete individual items from ingredient list.
+Added ability for end users to submit price estimate of ingredient 
+Added recipe price estimate based on user contributed prices of ingredients
+Prepare and conduct Live coding demo on Teams to show how to add comment functionality to frontend and backend
+
+Week 7
+Made some minor addition to retro report.
+
+Week 8
+Merge in search functionality from Mohans repo. 
+Add functionality to filter based on estimated price and adjust price based on ingredients you have.
+Add functionality to subscribe.
+Add reccomended recipies.
+Create seed data.
+
+Week 9
+Complete tipping

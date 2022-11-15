@@ -1,0 +1,622 @@
+[
+    {
+        "model": "user.customabstractuser",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$VrfgKisveA3OGknmLlgmg5$vZ4BjCM7Mextb20fYuxBOj+jmSShGsWvzyiHv8i0428=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Anna Apple",
+            "first_name": "",
+            "last_name": "",
+            "email": "a@a.com",
+            "is_staff": false,
+            "is_active": true,
+            "is_contributor": true,
+            "profile_photo": "profile_photos/2022/11/03/profilea.jpeg",
+            "date_of_birth": null,
+            "date_joined": "2022-11-03T08:23:31.896Z",
+            "profile_description": "My is Anna, I am a home chef that loves cooking with apples. Hope to share my love of apples with you.",
+            "groups": [],
+            "user_permissions": [],
+            "subscriptions": []
+        }
+    },
+    {
+        "model": "user.customabstractuser",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$j0ze3ZL4GDZ8ZOXI5QuzQ8$h7XglmcMytNdnuIPxZ9lUlWNZoZkJl27buSeOlxuns4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Minion Bob",
+            "first_name": "",
+            "last_name": "",
+            "email": "b@b.com",
+            "is_staff": false,
+            "is_active": true,
+            "is_contributor": true,
+            "profile_photo": "profile_photos/2022/11/03/profileb.jpeg",
+            "date_of_birth": null,
+            "date_joined": "2022-11-03T08:23:50.152Z",
+            "profile_description": "I am all about fun! Hope you like to have fun!",
+            "groups": [],
+            "user_permissions": [],
+            "subscriptions": []
+        }
+    },
+    {
+        "model": "user.customabstractuser",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$390000$uEBk0tZcnuBmvust5D5toC$3P/GTRCSmWi35VLfiP4Bfc3ehjQgxxugURGql0XdAi4=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "",
+            "first_name": "",
+            "last_name": "",
+            "email": "c@c.com",
+            "is_staff": false,
+            "is_active": true,
+            "is_contributor": false,
+            "profile_photo": "profile_photos/default_m_photo.png",
+            "date_of_birth": null,
+            "date_joined": "2022-11-03T08:24:09.215Z",
+            "profile_description": "",
+            "groups": [],
+            "user_permissions": [],
+            "subscriptions": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 1,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Banana Brulee",
+            "slug": "banana-brle-0qz7rgx3c2mg",
+            "rating": null,
+            "numReviews": 0,
+            "description": "On a cutting board, slice bananas on a long bias in three segments to reveal their insides.\r\nDip the cut sides in raw sugar. Place on a heat-proof plate.\r\nUse butane torch to brulee, moving the flame evenly back and forth over the sugar coating until caramelized and golden.",
+            "meal_type": "SNACK",
+            "main_photo": "listings/banana_brulee.jpeg",
+            "is_published": true,
+            "date_created": "2022-11-03T08:46:41.265Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 2,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Banana Chips",
+            "slug": "banana-chips-055hcr4tq2y",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Preheat the oven to 250F. Line a large sheet with parchment paper.\r\nIn a small bowl, combine 4 parts (4 tablespoons) water with 1 part (1 tablespoon) lemon juice.\r\nSlice bananas very thin, about 1/8 inch thick coins, brush with lemon juice and water mixture. Sprinkle with kosher salt.\r\nBake at 250F for about 1 1/2 to 2 hours or until they are crispy, making sure to flip them over halfway through.\r\nRemove them from the oven and allow them to cool (the longer they cool the crispier they become).",
+            "meal_type": "SNACK",
+            "main_photo": "listings/banana_chips.png",
+            "is_published": true,
+            "date_created": "2022-11-03T08:49:55.892Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 3,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Banana Pocket",
+            "slug": "banana-pocket-070rq4wzpm5",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Add 1 sliced banana to each tortilla, then drizzle with honey and sprinkle peanuts.",
+            "meal_type": "BREAKFAST",
+            "main_photo": "listings/banana_pockets.jpeg",
+            "is_published": true,
+            "date_created": "2022-11-03T08:54:11.369Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 4,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Banana Waffle",
+            "slug": "banana-waffle-0ik8yx2qr3aa",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Mix together flour, baking powder, sugar, salt, and nutmeg in a bowl.\r\nBeat eggs and add milk and vanilla extract in another.\r\nAdd flour mixture to wet and then stir in the mashed bananas and butter.\r\nGive a mix and add to a pre-heated waffle iron!",
+            "meal_type": "BREAKFAST",
+            "main_photo": "listings/banana_waffle.jpeg",
+            "is_published": true,
+            "date_created": "2022-11-03T08:56:15.642Z",
+            "likes": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 5,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Plantain Chips",
+            "slug": "plantain-chips-0e3wxt1lgmhc",
+            "rating": null,
+            "numReviews": 0,
+            "description": "1. Heat oil to 180 degrees.\r\n2. Slice plantain to 1mm thick.\r\n2. Fry sliced plantain in cooking oil.",
+            "meal_type": "SNACK",
+            "main_photo": "listings/plantain.png",
+            "is_published": true,
+            "date_created": "2022-11-03T08:57:45.679Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 6,
+        "fields": {
+            "contributor": 1,
+            "contributor_email": "a@a.com",
+            "title": "Apple Pork chop",
+            "slug": "apple-pork-chop-0wybi5jhstxh",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Saute the pork chops in butter and oil;\r\nMake a quick pan sauce with the Dijon mustard, chicken broth, the rest of the butter, apples;\r\nFinish cooking the pork in the sauce.",
+            "meal_type": "DINNER",
+            "main_photo": "listings/pork-chops-and-apples-recipe-1.jpg",
+            "is_published": true,
+            "date_created": "2022-11-03T09:06:53.627Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 7,
+        "fields": {
+            "contributor": 1,
+            "contributor_email": "a@a.com",
+            "title": "Chicken and Apple Stir-fry",
+            "slug": "chicken-and-apple-stir-fry-0je8p5t53d99",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Add onion and apple slices and saute for 4-5 minutes, until softened and slightly browned.\r\nMeanwhile, season the chicken strips with 2 teaspoons black pepper.\r\nPush the onion and apple slices to the sides of the pan and add chicken breast strips to the middle. Brown on both sides, about 6-8 minutes total. (If your pan is too crowded, do this in batches so you can properly brown the chicken.)",
+            "meal_type": "DINNER",
+            "main_photo": "listings/Sauteed-chicken-and-apples-3-320x320.jpg",
+            "is_published": true,
+            "date_created": "2022-11-03T09:11:24.222Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 8,
+        "fields": {
+            "contributor": 1,
+            "contributor_email": "a@a.com",
+            "title": "Toffee Apple",
+            "slug": "toffee-apple-0gb7pz3e287l",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Gently heat sugar and water in a heavy-based pan until sugar dissolves. \r\n\r\nMeanwhile, spear six eating apples with a stick or fork. Once the sugar has dissolved completely - otherwise it will crystallise - turn up the heat and let the mixture boil until it turns a caramel colour. Take off heat and immediately dip the pan in cold water to stop the caramel cooking further. \r\n\r\nQuickly dip each apple into the caramel to coat, then place on non-stick baking parchment to cool. They should last for 2-3hr before the caramel starts softening.",
+            "meal_type": "SNACK",
+            "main_photo": "listings/toffee-apples.jpg",
+            "is_published": true,
+            "date_created": "2022-11-03T09:14:04.109Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 9,
+        "fields": {
+            "contributor": 1,
+            "contributor_email": "a@a.com",
+            "title": "Apple juice",
+            "slug": "apple-juice-0qblcg80f4s",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Blend apple with water and salt. Serve cold.",
+            "meal_type": "DRINK",
+            "main_photo": "listings/1eb60545-cc16-4c22-a4fc-a184887e4e8d.jpg",
+            "is_published": true,
+            "date_created": "2022-11-03T09:23:32.173Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.listing",
+        "pk": 10,
+        "fields": {
+            "contributor": 2,
+            "contributor_email": "b@b.com",
+            "title": "Banana Milkshake",
+            "slug": "banana-milkshake-0mali805pmys",
+            "rating": null,
+            "numReviews": 0,
+            "description": "Blend milk with banana for 3 minutes. Add water as required.",
+            "meal_type": "DRINK",
+            "main_photo": "listings/Banana-milkshake-ed5ed7e.png",
+            "is_published": true,
+            "date_created": "2022-11-03T09:32:15.424Z",
+            "likes": []
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 15,
+        "fields": {
+            "name": "Banana",
+            "qty": "4",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 16,
+        "fields": {
+            "name": "Flour",
+            "qty": "1kg",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 17,
+        "fields": {
+            "name": "Buttermilk",
+            "qty": "1/2 cup",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 18,
+        "fields": {
+            "name": "Butter",
+            "qty": "1 Block",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 19,
+        "fields": {
+            "name": "Salt",
+            "qty": "1 Block",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 20,
+        "fields": {
+            "name": "Baking Soda",
+            "qty": "pinch",
+            "listing": 4
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 39,
+        "fields": {
+            "name": "Water",
+            "qty": "1tbs",
+            "listing": 9
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 40,
+        "fields": {
+            "name": "Apple",
+            "qty": "1kg",
+            "listing": 9
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 41,
+        "fields": {
+            "name": "Salt",
+            "qty": "1tbs",
+            "listing": 9
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 42,
+        "fields": {
+            "name": "Banana",
+            "qty": "1kg",
+            "listing": 1
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 43,
+        "fields": {
+            "name": "Sugar",
+            "qty": "500g",
+            "listing": 1
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 44,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 1
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 48,
+        "fields": {
+            "name": "Tortilla",
+            "qty": "1 pack",
+            "listing": 3
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 49,
+        "fields": {
+            "name": "Peanut",
+            "qty": "",
+            "listing": 3
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 50,
+        "fields": {
+            "name": "Honey",
+            "qty": "1 Tbs",
+            "listing": 3
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 51,
+        "fields": {
+            "name": "Banana",
+            "qty": "5",
+            "listing": 3
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 52,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 3
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 53,
+        "fields": {
+            "name": "Plantain",
+            "qty": "1kg",
+            "listing": 5
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 54,
+        "fields": {
+            "name": "Cooking oil",
+            "qty": "",
+            "listing": 5
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 55,
+        "fields": {
+            "name": "Apple",
+            "qty": "1kg",
+            "listing": 8
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 56,
+        "fields": {
+            "name": "Sugar",
+            "qty": "1kg",
+            "listing": 8
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 57,
+        "fields": {
+            "name": "Water",
+            "qty": "500ml",
+            "listing": 8
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 58,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 8
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 59,
+        "fields": {
+            "name": "Apple",
+            "qty": "1 pc",
+            "listing": 7
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 60,
+        "fields": {
+            "name": "Onion",
+            "qty": "1",
+            "listing": 7
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 61,
+        "fields": {
+            "name": "Pepper",
+            "qty": "",
+            "listing": 7
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 62,
+        "fields": {
+            "name": "Chicken",
+            "qty": "400g",
+            "listing": 7
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 63,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 7
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 64,
+        "fields": {
+            "name": "Onion",
+            "qty": "1",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 65,
+        "fields": {
+            "name": "Pork Chop",
+            "qty": "4",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 66,
+        "fields": {
+            "name": "Garlic",
+            "qty": "1",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 67,
+        "fields": {
+            "name": "Chicken Broth",
+            "qty": "100ml",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 68,
+        "fields": {
+            "name": "Butter",
+            "qty": "1 tbs",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 69,
+        "fields": {
+            "name": "Mustard",
+            "qty": "1 tbs",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 70,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 6
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 71,
+        "fields": {
+            "name": "Banana",
+            "qty": "2",
+            "listing": 10
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 72,
+        "fields": {
+            "name": "Milk (Cow)",
+            "qty": "1 cup",
+            "listing": 10
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 73,
+        "fields": {
+            "name": "Water",
+            "qty": "",
+            "listing": 10
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 77,
+        "fields": {
+            "name": "Banana",
+            "qty": "2 pcs",
+            "listing": 2
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 78,
+        "fields": {
+            "name": "Water",
+            "qty": "4 tbs",
+            "listing": 2
+        }
+    },
+    {
+        "model": "recipe.ingredient",
+        "pk": 79,
+        "fields": {
+            "name": "Salt",
+            "qty": "",
+            "listing": 2
+        }
+    }
+]

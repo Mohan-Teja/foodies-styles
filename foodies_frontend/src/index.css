@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* bg-[#54abff] */
+  body {
+    @apply bg-gray-100 !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-[#cce2b5] text-black;
+  }
+
+  header {
+    @apply sticky top-0 z-50 flex w-full items-center justify-between px-4 py-2 transition-all lg:px-10 lg:py-4 text-black;
+  }
+}

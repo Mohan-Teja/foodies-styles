@@ -1,0 +1,36 @@
+Week 1:
+Created the JIRA account and invited our team members to our JIRA project and started setting up some user stories with my team members. Also created GIYHUB account with my zid which I want to use this for the course
+
+Week 2:
+--> Started setting up environment and installed all the softwares necessary like node, postgresSQL, django, etc., and started        working on sprint 1.
+--> Our team decided on the schedule of the project along with meeting time and update times.
+--> Started working on the use case 1 which is Authentication system
+
+Week 3:
+--> Completely worked on User Authentication along with developing code for 2 user types with backend and frontend
+--> Finally able to complete the backend of the user authentication system where user could be able to create 2 types of accounts, explorer account and contributor account.
+
+Week 4:
+--> With the help of Simon, we created frontend of the user authentication system using react and bootstrap where user can create, login into application along with able to reset password by clicking on reset password link and also can activate his account.
+--> Started working on the developing backend API's for recipe creation, viewing, editing and deleting and made those CRUD opperations working and now user could be able to create, view, edit and delete recipe who also need to be a contributor and not an explorer
+
+Week 5:
+--> Almost end of sprint 1 and should present user stories 1, 2 and 5 to Chalsea and we are done with full backend for all user stories which are creating account and loging in and also creating recipes and editing, viewing and deleting recipes. Just need to develop frontend for recipes API
+--> With the help of Simon who created most of the frontend part, we completed recipe viewing, editing, deleting and creating from the app
+
+Week 6:
+--> Flex week, but we worked a bit on Retro A and finished it to submit.
+
+Week 7:
+--> Back to code again, In this week, I worked on likes and comments part of backend whereas simon worked on frontend. And most of the other code in this week except like and comment was done by Simon.
+
+Week 8:
+--> Sprint 2, where, we need to present user stories of likes, comments, price prediction of recipe.
+--> also, we almost done with all code except user stories of recommending recipes to user based on his likes and searches.
+
+Week 9:
+--> Retro B is done and submitted.
+--> Recipe Recommendation systems and tipping user are the final 2 user stories which are pretty much done by Simon, thanks to him, our team got one of the best coders to help us with our project and almost all the coding of our website is done.
+
+Week 10:
+--> 
